@@ -2045,6 +2045,7 @@ MonoBehaviour:
   wasPaused: 0
   loadingTime: 0.1
   hitObstacle: {fileID: 11400000, guid: 562cc17bb0a264a41a0e6484a6f01b24, type: 2}
+  winEvent: {fileID: 11400000, guid: 5b99ab304e4c0ee48b8db7ebee13feb2, type: 2}
   saveLevelScore: {fileID: 1384910954}
 --- !u!4 &849818536
 Transform:
@@ -3465,7 +3466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8891977772072626150, guid: 20017d9f1aaa0fd498c0a0c889622cf8, type: 3}
       propertyPath: levelScene
-      value: Test_LD
+      value: SceneEnv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3791,7 +3792,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 849818535}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: GoToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4826,8 +4827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 68, y: 0}
-  m_SizeDelta: {x: -136, y: 0}
+  m_AnchoredPosition: {x: 70.5, y: 0.097528696}
+  m_SizeDelta: {x: -141, y: -0.19505739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531421402
 MonoBehaviour:
